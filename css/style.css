@@ -1,0 +1,105 @@
+*{
+    font-family: Consolas;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+/*Para la cabecera*/
+header{
+    color: #fff;
+    background-color: #000;
+}
+
+.titulo div{
+    margin: 0 auto;
+    width: 70%;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.titulo div h2{
+    font-size: 38px;
+}
+
+.titulo{
+    background-color: #000;
+}
+
+
+/*Para el texto*/
+.texto{
+    margin: 0 auto;
+    width: 70%;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*Para una imagen*/
+.loneimg{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.loneimg img{
+    width: 20%;
+}
+
+/*Para varias imagenes*/
+.limg{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.limg img{
+    width: 15%;
+}
+
+/*Para el pie de pagina*/
+footer{
+    background-color: #000;
+}
+
+footer div{
+    margin: 0 auto;
+    width: 70%;
+    justify-content: left;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.seprador{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/*Listas simples sin diseño*/
+
+.simplex{
+    list-style: none;
+}
+
+/*Estilo targeta*/
+.contenedor{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+.imagen{
+    width: 15%;
+    padding-top: 0px;
+    padding: 10px;
+}
+
+
+
